@@ -1,7 +1,39 @@
 {% extends 'base.html' %}
-
+<style>
+    /* Custom styles for the random content */
+    .random-content {
+        background-color: #F7FAFC;
+        padding: 4rem;
+        border-radius: 0.5rem;
+    }
+</style>
 {% block content%}
-<h1>
-    Welcomeee Djangoo
-</h1>
+<div class="flowbite-card bg-white p-8 rounded-lg shadow-lg">
+    <h1 class="text-3xl font-semibold mb-4">Welcome to My Portfolio!</h1>
+    <h2 class="text-3xl font-semibold mb-4">Hi there, I'm Mohammed Al-Smadi! 👋</h2>
+    <div class="portfolio">
+        <h2 class="text-2xl font-semibold mb-2">My Projects</h2>
+        <p>Here are some of my projects that showcase my skills and experience:</p>
+        <div class="mt-4">
+            <h3 class="text-xl font-semibold">Student Attendance By QR-Code</h3>
+            <p> A student attendance system is needed to measure student participation in the classroom, especially at Yarmouk University. Several attendance systems have been proposed based on manual attendance. This is a very important problem. Management requires careful follow-up, care and no indulgence. The previous systems are inefficient in term of processing time and low in accuracy. This project aims to propose a student attendance system using the QR Code technology based on mobile application. To ensure the student attends in the classroom, the QR Code contained the time information which is generated and displayed at lecturer presentation. The student needs only to scan the displayed QR Code using his/ her android smartphone. The code then will be sent to a server for attendance process. The proposed work was designed and implemented using Android Studio and VS Code. The experimental result shows that the proposed attendance system need only 0.000030s to recognize the QR Codes in the server.</p>
+        </div>
+        <div class="mt-4">
+            <h3 class="text-xl font-semibold">Expert System For Improving The Quality Of Education</h3>
+            <p>Our system can work to improve the educational environment, not only for our students in the teaching staff as well. Education must progress and change with the progress of time. According to time and tools of the era, methods of study varied. In the pre-writing era, education was oral, and after man knew writing, man trusted his knowledge through the novel, and documented it. On clay and then paper, and this is the natural matter. These are the means that were available to him. What is not natural is that after more than 50 years have passed since the launch of the Internet and the tremendous technical development, we still rely on traditional means of education. Our project uses smart algorithms to identify and analyze student and faculty behavior and provide the best advice to both parties that aim to improve education and the teaching environment.</p>
+        </div>
+        <div class="mt-4">
+            <h3 class="text-xl font-semibold">Attendance and absence statistics with facial recognition technology</h3>
+            <p>In today's technologically advanced era, traditional attendance tracking methods can be time-consuming and prone to errors. To address this, our team has developed a sophisticated system that utilizes facial recognition technology to accurately count attendance while prioritizing privacy. This system aims to streamline attendance management processes, enhance efficiency, and respect the privacy concerns of individuals, particularly in conservative societies. This article provides an overview of our facial recognition-based attendance system, highlighting its key features and privacy-preserving mechanisms.</p>
+        </div>
+        <div class="mt-4">
+            <h3 class="text-xl font-semibold">SadaqahBox</h3>
+            <p>Our web application, called "SadaqahBox" , aims to address two important issues during the holy month of Ramadan. Ramadan: food waste and hunger. The project will provide a platform for people to donate food to those in need, reduce food waste and ensure everyone has access to nutritious meals during Ramadan.</p>
+        </div>
+        <div class="mt-4">
+            <h3 class="text-xl font-semibold">DashBoard for al-bazar platform</h3>
+            <p>It is an application for the control panel of the bazaar platform, as it contains many services to fully manage the platform, give statistics, and help the platform grow.</p>
+        </div>
+    </div>
+</div>
 {% endblock content%}
